@@ -1,0 +1,15 @@
+{
+  "server": {
+    "port": 8989,
+    "host": "localhost"
+  },
+  "register": {
+    "plugins": [
+      {
+        "plugin": "./example",
+        "options": {}
+      }
+    ],
+    "options": {}
+  }
+}

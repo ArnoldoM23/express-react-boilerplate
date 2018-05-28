@@ -1,0 +1,43 @@
+{
+  "name": "hapi-reactboiler",
+  "version": "1.0.0",
+  "description": "react boiler plate with hapi js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prepublish": "babel server --out-dir lib",
+    "build": "webpack",
+    "start": "node ./lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnoldo Munoz",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "enzyme": "^3.3.0",
+    "glue": "^5.0.0",
+    "hapi": "^17.5.0",
+    "inert": "^5.1.0",
+    "jest": "^23.0.1",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.2.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.3.2",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
