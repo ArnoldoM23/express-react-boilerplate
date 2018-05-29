@@ -18,7 +18,12 @@ module.exports = {
     rules: [
       {
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        use: {
+          loader: 'babel-loader'
+        },
+        options: {
+          plugins: [require('babel-plugin-transform-object-rest-spread')]
+        }
       }
     ]
   },
